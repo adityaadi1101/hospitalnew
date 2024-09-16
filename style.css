@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+body{
+     background-image: url('bavk.jpg');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     min-height: 100vh;
+    
+     
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+    }
+    .nav-links ul li{
+        list-style:none;
+        display:inline-block;
+        padding: 8px 12px;
+        position: relative;
+      
+      }
+      
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: green;
+    background-color: white;
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.btn{
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 2%;
+    color: red;
+    cursor: pointer;
+}
+@media(max-width:700px){
+    body{
+        background-image: url('bavk.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 100vh;
+    }
+    h1{
+        text-align: center;
+        box-sizing: border-box;
+        display: inline-block;
+        background-color: yellow;
+        border-radius: 10px;
+        font-size: 15px;
+        margin-right: 80px;
+    }
+    button{
+        margin-top: 10%;
+        font-size: 15px;
+    }
+    .nav-links{
+        flex:1;
+        text-align: right;
+        }
+        .nav-links ul li{
+            list-style:none;
+            display:inline-block;
+            padding: 8px 12px;
+            position: relative;
+           font-size: 10px;
+          }
+          
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('back.avif');
+}
+.name{
+    margin-left: 15%;
+    margin-top: 20%;
+    
+    display: flex;gap: 15px;
+   
+}
+.image{
+    width: 30px;
+}
+
+.add{
+    color: red;
+    margin-left:15% ;
+    margin-top: 2%;
+    display: flex;gap: 15px;
+    
+}
+
+button{
+    cursor: pointer;
+    background-color: green;
+    color: red;
+    margin-top: 3%;
+    margin-left: 45%;
+    font-size: 18px;
+}
+p{
+
+    margin-top: 1%;
+    margin-left: 40%;
+    
+}
+h1{
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-left: 38%;
+}
+input,text{
+    width: 40%;
+    padding: 10px;
+    outline: 0;
+    border: 2px solid #e60404;
+    color: #ffffff;
+    background: white;
+    font-size: 15px;
+}
+.prob{
+    margin-left:15% ;
+    margin-top: 2%;
+    display: flex;gap: 15px;
+}
+@media (max-width:700px) {
+    body{
+        background-image: url('bavk.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 100vh;
+    }
+    h1{
+        font-size: 15px;
+        margin-left: 30%;
+        box-sizing: border-box;
+        background-color: yellow;
+        display: inline-block;
+        border-radius: 5px;
+    }
+    input{
+        width: 40%;
+        padding: 5px;
+        outline: 0;
+        border: 1px solid #faf8f8;
+        color: #ffffff;
+        background: rgb(12, 12, 12);
+        font-size: 10px;
+    }
+    .image{
+        width: 20px;
+        margin-left: -30px;
+    }
+    button{
+        font-size:10px;
+    }
+    p{
+        margin-top:2%;
+        color: white;
+        font-size: 11px;
+        margin-left: 30%;
+    }
+}
